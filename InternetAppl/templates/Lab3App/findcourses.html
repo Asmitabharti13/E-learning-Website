@@ -1,0 +1,8 @@
+{% extends 'Lab3App/base.html' %}
+{% block body_block %}
+    <form action="{% url 'Lab3App:findcourses' %}" method="post">
+ {% csrf_token %}
+ {{ form.as_p }}
+ <input type="submit" name="submit1" value="Find Courses" />
+ </form>
+{% endblock %}

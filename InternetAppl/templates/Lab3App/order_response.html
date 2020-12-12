@@ -1,0 +1,16 @@
+{% extends 'Lab3App/base.html' %}
+{% block title %}Order Placed{% endblock %}
+{% block body_block %}
+    {% csrf_token %}
+{% if courses %}
+ <h3>Title of the Courses in order are:</h3>
+    <h3>No.      Course Name           Category          Length       Price</h3>
+ <ol>
+ {% for course in courses %}
+ <li> {{ course.title}}     {{ course.topic.name }}  {{ course.topic.length }}   {{ course.price }}</li>
+ {% endfor %}
+ </ol>
+ {% else %}
+ <strong>There are no such orders!</strong>
+ {% endif %}
+{% endblock %}

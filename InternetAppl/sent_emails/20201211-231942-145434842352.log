@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: TestSite Team <noreply@example.com>
+To: bhartia@uwindsor.ca
+Date: Sat, 12 Dec 2020 04:19:42 -0000
+Message-ID: <160774678253.2520.9393154644517975531@Asmita-pc.home>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/reset/MQ/aeqosu-4e88c8594c4ba14ff256e9ae67c3231e/
+
+Your username, in case you’ve forgotten: asmita
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

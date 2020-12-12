@@ -1,0 +1,18 @@
+{% extends 'Lab3App/base.html' %}
+{#{% block myhdg %} Hello Asmita {% endblock %}#}
+{% block body_block %}
+ {% if top_list %}
+ <h2>List of Topics</h2>
+ <ol>
+ {% for top in top_list %}
+ <li>
+     <a href="{{ top.get_absolute_url }}">{{ top.name }}</a>
+ </li>
+ {% endfor %}
+ </ol>
+ {% else %}
+ <strong>There are no available topics!</strong>
+ {% endif %}
+     <p class="hbar1"><a href = "{% url 'Lab3App:place_order' %}">Place Order</a><br/></p>
+    <p> {{ last_login }}</p>
+{% endblock %}

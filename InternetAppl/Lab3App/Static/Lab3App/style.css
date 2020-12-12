@@ -1,0 +1,12 @@
+h1 {
+        background-color: #FFFFFF;
+        color: #FF0000;
+        font-size: 16pt;
+        font-style: italic;
+        text-align: center;
+}
+
+.hbar1 {
+ display: inline;
+ margin: 15px;
+}
